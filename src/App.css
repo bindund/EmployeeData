@@ -1,14 +1,75 @@
-body{
-  box-sizing: border-box;
-  border: 2px solid;
-  width : 700px;
-  height : 340px;
-  padding : 20px;
-}
-.label{
-  display:flex;
+/* body {
+  background: url('img/bgg.png') no-repeat center;
+  background-size: cover;
+  font-family: sans-serif;
+} */
+.employee-wrapper {
+  height: 400vh;
+  width: 300vw;
 }
 
-.text{
-  margin-left: 10px;
+main{
+  width: 100%; 
+  margin: 5px auto  ;
+  display: grid;
+ grid-template-rows: 1500px 1500px ;
+  grid-template-columns: 700px repeat(1,1fr) ;
 }
+
+.block1{
+  box-sizing: border-box;
+
+  padding-left : 200px;
+  padding-top : 1px;
+}
+
+.block2 {
+  box-sizing: border-box;
+  
+  padding-left : 200px;
+  padding-top : 1px;
+}
+
+
+
+.btn_AppInput {
+    
+	/* position: absolute; */
+  border: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  /* position: relative; */
+  color: #fff;
+  font-weight: 15;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 20px auto;
+  margin-left: 200px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.block2.btn_AppInput_details {
+    
+	/* position: absolute; */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  /* position: relative; */
+  color: #fff;
+  font-weight: 15;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 20px auto;
+  margin-left: 2px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+

@@ -1,0 +1,23 @@
+
+
+.btn_DateOfBirthInput {
+    
+	/* position: absolute; */
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: black;
+  font-weight: 15;
+  font-size: 15px;
+  background-color: silver;
+  padding: 17px 60px;
+  margin: 20px auto;
+  margin-left: 200px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+

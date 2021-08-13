@@ -1,0 +1,87 @@
+
+
+.btn {
+    
+	/* position: absolute; */
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-weight: 15;
+  font-size: 15px;
+  background-color: #999999	;
+  padding: 17px 60px;
+  margin: 20px auto;
+  margin-right: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: rgba(255,255,255, 0.08);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.btn-1 {
+    border: none;
+    /* display: block; */
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #222;
+    padding: 17px 60px;
+    margin: 20px auto;
+    margin-top: 19px;
+    margin-left: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+  
+  
+  
+  .btn-1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: rgba(255,255,255, 0.08);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  .btn-1:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  
+  
+
