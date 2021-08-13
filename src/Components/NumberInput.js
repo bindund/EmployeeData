@@ -121,7 +121,7 @@ function NumberInput({ employeeId }) {
       >
         <option selected value="">Type</option>
         <option value="Secondary">Secondary</option>
-        <option value="Resdidence">Residence</option>
+        <option value="Residence">Residence</option>
         <option value="Emergency">Emergency</option>
       </select>
       <div class="select-button"><div class="small-arrow-down"></div></div>
