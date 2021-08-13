@@ -8,4 +8,17 @@
     color: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
   }
+  .form::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(189, 113, 113, 0.08);
+    transform: skewX(-26deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+  }
   
